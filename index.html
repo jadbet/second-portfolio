@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yered Betigst | Software Engineer</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <script src="script.js" defer></script>
+</head>
+<body class="bg-gray-50 font-sans">
+    <!-- Navigation -->
+    <nav class="bg-white shadow-lg fixed w-full z-10">
+        <div class="max-w-6xl mx-auto px-4">
+            <div class="flex justify-between">
+                <div class="flex space-x-7">
+                    <div>
+                        <a href="#" class="flex items-center py-4 px-2">
+                            <span class="text-gray-500 text-lg"><img style="margin-right: 20px; border-radius: 50%; width: 60px; height: 100%;" src="logo.jpg" alt=""></span>
+<span class="font-semibold text-yellow-900 text-lg">Yared Betigst</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="hidden md:flex items-center space-x-1">
+                    <a href="#home" class="py-4 px-2 text-blue-600 border-b-4 border-blue-600 font-semibold">Home</a>
+                    <a href="#about" class="py-4 px-2 text-gray-500 hover:text-blue-600 transition duration-300">About</a>
+                    <a href="#projects" class="py-4 px-2 text-gray-500 hover:text-blue-600 transition duration-300">Projects</a>
+                    <a href="#skills" class="py-4 px-2 text-gray-500 hover:text-blue-600 transition duration-300">Skills</a>
+                    <a href="#contact" class="py-4 px-2 text-gray-500 hover:text-blue-600 transition duration-300">Contact</a>
+                </div>
+                <div class="md:hidden flex items-center">
+                    <button class="outline-none mobile-menu-button">
+                        <svg class="w-6 h-6 text-gray-500" 
+                            x-show="!showMenu"
+                            fill="none"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                            stroke-width="2"
+                            viewBox="0 0 24 24"
+                            stroke="currentColor"
+                        >
+                            <path d="M4 6h16M4 12h16M4 18h16"></path>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div class="hidden mobile-menu">
+            <ul class="">
+                <li><a href="#home" class="block text-sm px-2 py-4 hover:bg-blue-600 hover:text-white">Home</a></li>
+                <li><a href="#about" class="block text-sm px-2 py-4 hover:bg-blue-600 hover:text-white">About</a></li>
+                <li><a href="#projects" class="block text-sm px-2 py-4 hover:bg-blue-600 hover:text-white">Projects</a></li>
+                <li><a href="#skills" class="block text-sm px-2 py-4 hover:bg-blue-600 hover:text-white">Skills</a></li>
+                <li><a href="#contact" class="block text-sm px-2 py-4 hover:bg-blue-600 hover:text-white">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="py-20 mt-16" style="background-image: url('image.jpg'); background-size: cover; background-position: center;">
+        <div class="bg-black bg-opacity-30 h-full flex items-center">
+        <div class="container mx-auto px-6 flex flex-col md:flex-row items-center">
+            <div class="md:w-1/2 flex flex-col justify-center">
+                <h1 class="text-4xl md:text-6xl font-bold text-yellow-800 mb-4">Hi, I'm Yared Betigst</h1>
+                <h2 class="text-xl md:text-2xl text-yellow-600 mb-8">4th Year Software Engineering Student</h2>
+                <p class="text-yellow-600 mb-8">At Debre Markos University | Passionate about building innovative solutions</p>
+                <div class="flex space-x-4">
+                    <a href="#contact" class="bg-blue-600 text-white px-6 py-3 rounded-lg hover:bg-yellow-700 transition duration-300">Contact Me</a>
+                    <a href="#projects" class="border border-blue-600 text-blue-600 px-6 py-3 rounded-lg hover:bg-blue-50 transition duration-300">View Projects</a>
+                </div>
+            </div>
+            <div class="md:w-1/2 mt-12 md:mt-0 flex justify-center">
+                <div class="relative w-54 h-54 rounded-full overflow-hidden border-4 border-yellow-600 shadow-xl">
+                    <!-- Placeholder for your image -->
+                    <div class="w-full h-full bg-gray-300 flex items-center justify-center">
+                        <span class="text-gray-500 text-lg"><img style="border-radius: 50%; width: 100%; height: 100%;" src="logo.jpg" alt=""></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-20 bg-gray-100">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl font-bold text-center text-gray-800 mb-12">About Me</h2>
+            <div class="flex flex-col md:flex-row items-center">
+                <div class="md:w-1/2 mb-8 md:mb-0">
+                    <img style="width: 100%;" src="avaterthecodder.jpg" alt="About" class="rounded-lg shadow-xl">
+                </div>
+                <div class="md:w-1/2 md:pl-12">
+                    <h3 class="text-2xl font-semibold text-gray-800 mb-4">Software Engineering Student</h3>
+                    <p class="text-gray-600 mb-4">
+                        I'm a passionate 4th year Software Engineering student at Debre Markos University with a strong foundation in computer science principles and programming. My journey in technology has been driven by curiosity and a desire to create impactful solutions.
+                    </p>
+                    <p class="text-gray-600 mb-6">
+                        Throughout my academic career, I've worked on various projects that have helped me develop both technical and problem-solving skills. I'm particularly interested in web development, mobile applications, and software architecture.
+                    </p>
+                    <div class="flex flex-wrap gap-4">
+                        <div class="bg-white px-4 py-2 rounded-lg shadow-sm">
+                            <span class="font-semibold text-blue-600">Education:</span> BSc in Software Engineering
+                        </div>
+                        <div class="bg-white px-4 py-2 rounded-lg shadow-sm">
+                            <span class="font-semibold text-blue-600">University:</span> Debre Markos
+                        </div>
+                        <div class="bg-white px-4 py-2 rounded-lg shadow-sm">
+                            <span class="font-semibold text-blue-600">Year:</span> 4th Year
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="py-20">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl font-bold text-center text-gray-800 mb-12">My Projects</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Project 1 -->
+                <div class="bg-white rounded-lg overflow-hidden shadow-lg transition-transform duration-300 hover:scale-105">
+                    <img src="university.jpg" alt="Project 1" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold text-gray-800 mb-2">University Management System</h3>
+                        <p class="text-gray-600 mb-4">A comprehensive system for managing university operations including student registration, course management, and grade tracking.</p>
+                        <div class="flex flex-wrap gap-2 mb-4">
+                            <span class="bg-blue-100 text-blue-800 text-xs px-3 py-1 rounded-full">Java</span>
+                            <span class="bg-blue-100 text-blue-800 text-xs px-3 py-1 rounded-full">MySQL</span>
+                            <span class="bg-blue-100 text-blue-800 text-xs px-3 py-1 rounded-full">Swing</span>
+                        </div>
+                        <a href="#" class="text-blue-600 hover:text-blue-800 font-medium">View Project →</a>
+                    </div>
+                </div>
+                
+                <!-- Project 2 -->
+                <div class="bg-white rounded-lg overflow-hidden shadow-lg transition-transform duration-300 hover:scale-105">
+                    <img src="cart.jpg" alt="Project 2" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold text-gray-800 mb-2">E-Commerce Website</h3>
+                        <p class="text-gray-600 mb-4">A full-featured online store with product listings, shopping cart, and payment integration.</p>
+                        <div class="flex flex-wrap gap-2 mb-4">
+                            <span class="bg-blue-100 text-blue-800 text-xs px-3 py-1 rounded-full">React</span>
+                            <span class="bg-blue-100 text-blue-800 text-xs px-3 py-1 rounded-full">Node.js</span>
+                            <span class="bg-blue-100 text-blue-800 text-xs px-3 py-1 rounded-full">MongoDB</span>
+                        </div>
+                        <a href="#" class="text-blue-600 hover:text-blue-800 font-medium">View Project →</a>
+                    </div>
+                </div>
+                
+                <!-- Project 3 -->
+                <div class="bg-white rounded-lg overflow-hidden shadow-lg transition-transform duration-300 hover:scale-105">
+                    <img src="mobile.jpg" alt="Project 3" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold text-gray-800 mb-2">Mobile Health App</h3>
+                        <p class="text-gray-600 mb-4">A Flutter-based application for tracking health metrics and connecting with healthcare providers.</p>
+                        <div class="flex flex-wrap gap-2 mb-4">
+                            <span class="bg-blue-100 text-blue-800 text-xs px-3 py-1 rounded-full">Flutter</span>
+                            <span class="bg-blue-100 text-blue-800 text-xs px-3 py-1 rounded-full">Firebase</span>
+                            <span class="bg-blue-100 text-blue-800 text-xs px-3 py-1 rounded-full">Dart</span>
+                        </div>
+                        <a href="#" class="text-blue-600 hover:text-blue-800 font-medium">View Project →</a>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center mt-12">
+                <a href="#" class="inline-block bg-blue-600 text-white px-6 py-3 rounded-lg hover:bg-blue-700 transition duration-300">View All Projects</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="py-20 bg-gray-100">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl font-bold text-center text-gray-800 mb-12">My Skills</h2>
+            <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-8">
+                <!-- Programming Languages -->
+                <div class="bg-white p-6 rounded-lg shadow-md text-center">
+                    <div class="text-blue-600 mb-4">
+                        <i class="fas fa-code text-4xl"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-2">Programming</h3>
+                    <ul class="text-gray-600">
+                        <li>Java</li>
+                        <li>JavaScript</li>
+                        <li>Python</li>
+                        <li>C++</li>
+                        <li>Dart</li>
+                    </ul>
+                </div>
+                
+                <!-- Web Development -->
+                <div class="bg-white p-6 rounded-lg shadow-md text-center">
+                    <div class="text-blue-600 mb-4">
+                        <i class="fas fa-globe text-4xl"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-2">Web Development</h3>
+                    <ul class="text-gray-600">
+                        <li>HTML/CSS</li>
+                        <li>React</li>
+                        <li>Node.js</li>
+                        <li>Express</li>
+                        <li>Tailwind CSS</li>
+                    </ul>
+                </div>
+                
+                <!-- Mobile Development -->
+                <div class="bg-white p-6 rounded-lg shadow-md text-center">
+                    <div class="text-blue-600 mb-4">
+                        <i class="fas fa-mobile-alt text-4xl"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-2">Mobile</h3>
+                    <ul class="text-gray-600">
+                        <li>Flutter</li>
+                        <li>Android</li>
+                        <li>React Native</li>
+                    </ul>
+                </div>
+                
+                <!-- Databases -->
+                <div class="bg-white p-6 rounded-lg shadow-md text-center">
+                    <div class="text-blue-600 mb-4">
+                        <i class="fas fa-database text-4xl"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-2">Databases</h3>
+                    <ul class="text-gray-600">
+                        <li>MySQL</li>
+                        <li>MongoDB</li>
+                        <li>Firebase</li>
+                        <li>PostgreSQL</li>
+                    </ul>
+                </div>
+                
+                <!-- Tools & Others -->
+                <div class="bg-white p-6 rounded-lg shadow-md text-center">
+                    <div class="text-blue-600 mb-4">
+                        <i class="fas fa-tools text-4xl"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-2">Tools & Others</h3>
+                    <ul class="text-gray-600">
+                        <li>Git</li>
+                        <li>Docker</li>
+                        <li>Figma</li>
+                        <li>Agile Methodologies</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="mt-12 bg-white p-8 rounded-lg shadow-md">
+                <h3 class="text-2xl font-semibold text-center mb-6">Currently Learning</h3>
+                <div class="flex flex-wrap justify-center gap-4">
+                    <div class="bg-blue-50 px-4 py-2 rounded-full flex items-center">
+                        <i class="fas fa-bolt text-blue-600 mr-2"></i>
+                        <span>Machine Learning</span>
+                    </div>
+                    <div class="bg-blue-50 px-4 py-2 rounded-full flex items-center">
+                        <i class="fas fa-cloud text-blue-600 mr-2"></i>
+                        <span>AWS Cloud</span>
+                    </div>
+                    <div class="bg-blue-50 px-4 py-2 rounded-full flex items-center">
+                        <i class="fas fa-shield-alt text-blue-600 mr-2"></i>
+                        <span>Cybersecurity</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-20">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl font-bold text-center text-gray-800 mb-12">Get In Touch</h2>
+            <div class="flex flex-col md:flex-row">
+                <div class="md:w-1/2 mb-8 md:mb-0">
+                    <h3 class="text-2xl font-semibold mb-4">Contact Information</h3>
+                    <p class="text-gray-600 mb-6">Feel free to reach out to me for any questions or opportunities!</p>
+                    
+                    <div class="space-y-4">
+                        <div class="flex items-center">
+                            <i class="fas fa-envelope text-blue-600 mr-4 text-xl"></i>
+                            <span class="text-gray-700">yaredbe6533@gmail.com</span>
+                        </div>
+                        <div class="flex items-center">
+                            <i class="fas fa-phone text-blue-600 mr-4 text-xl"></i>
+                            <span class="text-gray-700">+251 963570105</span>
+                        </div>
+                        <div class="flex items-center">
+                            <i class="fas fa-map-marker-alt text-blue-600 mr-4 text-xl"></i>
+                            <span class="text-gray-700">Debre Markos University, Ethiopia</span>
+                        </div>
+                    </div>
+                    
+                    <div class="mt-8">
+                        <h4 class="text-xl font-semibold mb-4">Connect With Me</h4>
+                        <div class="flex space-x-4">
+                            <a href="https://github.com/jadbet" class="bg-blue-600 text-white p-3 rounded-full hover:bg-blue-700 transition duration-300">
+                                <i class="fab fa-linkedin-in"></i>
+                            </a>
+                            <a href="https://github.com/jadbet" class="bg-blue-400 text-white p-3 rounded-full hover:bg-blue-500 transition duration-300">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                            <a href="https://github.com/jadbet" class="bg-gray-800 text-white p-3 rounded-full hover:bg-gray-900 transition duration-300">
+                                <i class="fab fa-github"></i>
+                            </a>
+                            <a href="https://github.com/jadbet" class="bg-blue-600 text-white p-3 rounded-full hover:bg-red-700 transition duration-300">
+                                <i class="fab fa-telegram"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="md:w-1/2 md:pl-12">
+                    <form class="bg-white p-8 rounded-lg shadow-md">
+                        <div class="mb-4">
+                            <label for="name" class="block text-gray-700 font-medium mb-2">Name</label>
+                            <input type="text" id="name" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:border-blue-600">
+                        </div>
+                        <div class="mb-4">
+                            <label for="email" class="block text-gray-700 font-medium mb-2">Email</label>
+                            <input type="email" id="email" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:border-blue-600">
+                        </div>
+                        <div class="mb-4">
+                            <label for="subject" class="block text-gray-700 font-medium mb-2">Subject</label>
+                            <input type="text" id="subject" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:border-blue-600">
+                        </div>
+                        <div class="mb-6">
+                            <label for="message" class="block text-gray-700 font-medium mb-2">Message</label>
+                            <textarea id="message" rows="4" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:border-blue-600"></textarea>
+                        </div>
+                        <button type="submit" class="w-full bg-blue-600 text-white py-3 rounded-lg hover:bg-blue-700 transition duration-300">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-8">
+        <div class="container mx-auto px-6">
+            <div class="flex flex-col md:flex-row justify-between items-center">
+                <div class="mb-4 md:mb-0">
+                    <h3 class="text-xl font-semibold">Yared Betigst</h3>
+                    <p class="text-gray-400">Software Engineering Student</p>
+                </div>
+                <div class="flex space-x-6">
+                    <a href="#home" class="text-gray-400 hover:text-white transition duration-300">Home</a>
+                    <a href="#about" class="text-gray-400 hover:text-white transition duration-300">About</a>
+                    <a href="#projects" class="text-gray-400 hover:text-white transition duration-300">Projects</a>
+                    <a href="#contact" class="text-gray-400 hover:text-white transition duration-300">Contact</a>
+                </div>
+            </div>
+            <div class="border-t border-gray-700 mt-6 pt-6 text-center text-gray-400">
+                <p>&copy; 2025 Yared Betigst. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
